@@ -1,0 +1,12 @@
+#Tokenization coverts a paragraph into list of sentences.
+dummy="Lorem jhur jdhd hsai nabe vbvo sbwo sbb nn eiwn bdhdj dj dhdbd bddn dbnd.ndhdn dndnd ndbd ss shdbd hdfk cb djdn cnv vbd dbv dhvb.bd djb dvb bvj jkbv hv."
+
+dummy
+
+from nltk.tokenize import sent_tokenize,word_tokenize
+
+sents=sent_tokenize(dummy)
+sents
+
+for sent in sents:
+  print(word_tokenize(sent))
