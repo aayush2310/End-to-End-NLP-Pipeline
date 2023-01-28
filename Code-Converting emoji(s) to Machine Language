@@ -1,0 +1,9 @@
+#Unicode Normalization
+
+emoji_text='First, we established subjects. I was (emoji),and I could not'
+
+emoji_text
+
+emoji_text.encode('utf-8')
+
+#emoji(s) are converted to machine understandable texts.
