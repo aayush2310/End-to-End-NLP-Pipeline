@@ -1,0 +1,7 @@
+Converting text to numbers is called feature Engineering.-Text vectorization
+The type of feature engineering depends upon the type of problem we are solving.
+
+When we make a ML pipeline then the feature engineering stage is a bit different than that of the DL based pipeline.
+In Ml model we need to the feature engineering step,in Dl model we dont need to do it ourselves.The adv of Ml based pipeline feature engineering is that since we do the
+feature engineering,so we can justify the result.Interpretibility is retained.The disadvantage is that we need domain knowledge to do this task-hectic.
+Second problem is that sometimes there are features which damage our model .
