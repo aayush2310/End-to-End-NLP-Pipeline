@@ -1,0 +1,5 @@
+incorrect_text='ceertain people are hungry bit I am not foodi and the way I eat is malvelloius.'
+
+from textblob import TextBlob
+textBlb=TextBlob(incorrect_text)
+textBlb.correct()
