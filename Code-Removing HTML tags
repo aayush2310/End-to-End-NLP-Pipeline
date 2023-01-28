@@ -1,0 +1,14 @@
+#The easiest way to do HTML tag cleaning is using regular expressions.
+
+sample_text='<h2>HTML ELEMENT</h2><p>The HTML <code class="w3-codespan">&lt;sup&gt;</code>element defines superscript text. Superscript text appears half a character 
+             above the normal line,and is sometimes rendered.<sup>[1]</sup>:</p>'
+             
+sample_text
+
+import re
+def striphtml(data):
+    p=re.compiler(r'<.*?>')
+    return p.sub('',data)
+    
+striphtml(sample_text)
+
